@@ -27,7 +27,7 @@ const about = (container) => {
   // add contents to elements
   aboutHeaderH1.textContent = "Our Story & Craft"
 
-  leftAboutImage.src = "https://images.unsplash.com/photo-1621996346565-e3d5d6288517?auto=format&fit=crop&w=800&q=80"
+  leftAboutImage.src = "https://images.unsplash.com/photo-1626844131082-256783844137?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   leftAboutImage.alt = "Artisan pasta maker"
 
   firstContent.textContent = "Spagyo was born from a passion to preserve authentic Italian pasta-making traditions while bringing modern culinary refinement to every dish."

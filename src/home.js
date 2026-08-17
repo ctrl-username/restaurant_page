@@ -35,7 +35,7 @@ const home = (container) => {
   subTitle.textContent = "Hand-made pasta, fresh local ingredients, and recipes straight from Italy's core."
   ctaButton1.textContent = "Order Online"
   ctaButton2.textContent = "Reserve Table"
-  heroImage.src = heroImageFile
+  heroImage.src = "https://images.unsplash.com/photo-1626844131082-256783844137?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   heroImage.alt = "Fresh Italian Tagliatelle Pasta"
 
 
