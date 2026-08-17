@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-font: 'Bricolage Grotesque', sans-serif;
+  --secondary-font: 'Inter', sans-serif;
+
+  --primary-font-size: 30px;
+  --secondary-font-size: 14px;
+
+  --primary-color: #923825;
+  --secondary-color: #0A1929;
+  --background-color: #f7f3e3;
+  --card-bg: #ffffff;
+  --text-color: #333333;
+  --text-muted: #666666;
+  --button-color: #f0ae44;
+  --border-color: #e2ded0;
+}
+
+/* CSS RESET */
+
+/* 1. Use a more-intuitive box-sizing model */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--secondary-font);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+/* Header & Navigation */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: var(--primary-font);
+  background-color: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 12px 24px;
+  margin: 20px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+header h1 {
+  font-size: 28px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+button {
+  font-family: var(--primary-font);
+  font-size: 15px;
+  font-weight: 600;
+  background-color: var(--button-color);
+  border: 1px solid transparent;
+  border-radius: 20px;
+  padding: 6px 16px;
+  color: var(--secondary-color);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  min-width: 90px;
+  height: 36px;
+}
+
+button:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+button:focus {
+  background-color: var(--primary-color);
+  color: #ffffff;
+}
+
+/* Main Content */
+
+#content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid var(--border-color);
+  border-radius: 16px;
+  padding: 32px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+}
+
+/* Footer */
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 8px;
+  color: var(--text-muted);
+  font-size: 14px;
+  margin-bottom: 20px;
+  border-top: 1px solid var(--border-color);
+}
