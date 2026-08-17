@@ -1,7 +1,7 @@
 // create home elements
 import "./home.css"
 
-import heroImageFile from "./hero-image.png"
+// import heroImageFile from "./hero-image.png"
 
 
 const home = (container) => {
